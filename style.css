@@ -1,3 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: blue;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: darkolivegreen; /* Set the background color for the entire website */
+    color: white; /* Set text color to white for contrast */
+    padding: 20px;
+}
+
+header {
+    background: transparent; /* Set background to transparent */
+    color: inherit; /* Inherit text color from body */
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: inherit; /* Inherit text color from body */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2, h3, h4 {
+    text-align: center; /* Center the headings */
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1.5em; /* Increase font size for h4 */
+    margin-bottom: 10px; /* Add 10px margin below h4 */
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 300px; /* Set width to 300px */
+    height: 300px; /* Set height to 300px */
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    text-align: center; /* Center the paragraphs */
+    margin: 10px 0; /* Add 10px margin below paragraphs */
+}
+
+/* Specific rule for paragraphs under About Me */
+#about-me p {
+    margin-top: 40px; /* Adjust this value to create space equivalent to two lines */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+    background: transparent; /* Set background to transparent */
 }
